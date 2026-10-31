@@ -1,17 +1,12 @@
 # MatrixLab
 
-##THEORY
+# THEORY
 Matrix Lab is a menu-driven console application developed in Python. It performs addition, subtraction, multiplication, scalar multiplication, transpose, determinant, adjoint and inverse of matrices, checks whether a matrix is symmetric or skew-symmetric, and solves a system of linear equations by the matrix method (X = A⁻¹B). All results are computed exactly in fractions.
 
 
-## PROGRAM
-# MATRIX LAB - Matrix Calculator (Class 12 CBSE Computer Science Project)
-# Concepts used: lists, loops, functions, recursion and the fractions module.
-# A matrix is stored as a list of rows, e.g. [[1, 2], [3, 4]].
-
+# PROGRAM
+```python
 from fractions import Fraction
-
-# ----- INPUT AND DISPLAY -----
 
 def get_number(message):
     """Ask until a valid number is typed (examples: 5, -2, 0.5, 3/4)."""
@@ -49,3 +44,5 @@ def read_matrix(name, square=False):
 
 def show_matrix(matrix):
     """Print a matrix row by row."""
+
+main() '''
